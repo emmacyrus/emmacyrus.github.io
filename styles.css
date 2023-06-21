@@ -1,0 +1,26 @@
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.link {
+    text-align: center;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+h3 {
+    border-style: solid;
+    margin-top: 20px;
+}
+
+body {
+    padding-right: 200px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    background-color: pink;
+}
+
