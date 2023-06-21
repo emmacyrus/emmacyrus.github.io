@@ -13,39 +13,14 @@ h2 {
     font-weight: bolder;
 }
 
-/* h3 {
+h3 {
     border-style: solid;
     margin-top: 20px;
-} */
+}
 
 body {
     padding-right: 200px;
     padding-bottom: 50px;
     padding-left: 200px;
     background-color: pink;
-}
-
-.post1 {
-    border: 2px solid;
-    padding: 10px    
-}
-
-.post2 {
-    border: 2px solid;
-    padding: 10px    
-}
-
-.post3 {
-    border: 2px solid;
-    padding: 10px    
-}
-
-.post4 {
-    border: 2px solid;
-    padding: 10px    
-}
-
-.post5 {
-    border: 2px solid;
-    padding: 10px    
 }
