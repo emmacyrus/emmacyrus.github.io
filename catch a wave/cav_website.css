@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: 300;
+    border-radius: 50;
+    background-color: rgb(184, 217, 255);
+}
+
+
+/* header for all pages */
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    font-size: 17.5px;
+}
+
+header{
+    height:70px;
+    padding-left:20px ;
+    padding-right: 20px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 4fr 2fr 4fr 1fr;
+    grid-template-areas: "brand . booking  hamburger";
+    background-color: #80aded;
+}
+
+.brand {
+    grid-area: brand;
+}
+
+.booking {
+    grid-area: booking; 
+}
+
+.hamburger {
+    grid-area: hamburger;
+    width: 32px;
+    height: 32px;
+}
+
+button {
+    background-color: #2222bd;
+    color: white;
+    height: 40px;
+    max-width: 150px;
+    padding: 5px 10px;
+    line-height: 20px;
+    border-radius: 30px;
+    font-weight: 300;
+}
+/* header for all pages */
+
+
+
+/* landing page */
+h2 {
+    font-family: 'Amatic SC', cursive, 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.talk {
+    margin: 10px;
+    text-align: center;
+}
+
+/* landing page */
+
